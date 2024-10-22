@@ -24,8 +24,8 @@ document.getElementById("signupForm").addEventListener("submit", async (e) => {
     });
 
     if (response.ok) {
-      // Redirect to cart page upon successful signup
-      window.location.href = "/cart.html";
+      // Redirect to the main page upon successful signup
+      window.location.href = "/index.html";
     } else {
       throw new Error("Failed to create user");
     }
